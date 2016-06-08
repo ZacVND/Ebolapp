@@ -48,6 +48,14 @@ angular.module('starter', ['ionic', 'ngCordova'])
         }
       }
     })
+    .state ('menu.situation', {
+      url: '/situation',
+      views: {
+        'menuContent' : {
+          templateUrl: 'templates/situation.html'
+        }
+      }
+    })
     .state ('menu.help', {
       url: '/help',
       views: {
