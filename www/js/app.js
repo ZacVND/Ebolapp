@@ -113,7 +113,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
       var circle = new google.maps.Circle({
         center: latLng,
-        radius: 50,
+        radius: 100,
         strokeColor : '#AA00FF',
         strokeWidth: 5,
         fillColor : '#880000',
